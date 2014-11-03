@@ -1,0 +1,28 @@
+{
+  "name": "string-map",
+  "version": "0.0.1",
+  "description": "simple javascript StringMap",
+  "author": "Luiz Bills <luizpbills@gmail.com>",
+  "main": "string-map.js",
+  "contributors": [
+    {
+      "name": "Luiz Bills",
+      "email": "luizpbills@gmail.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/luizbills/map.js"
+  },
+  "bugs": {
+    "url": "https://github.com/luizbills/map.js/issues"
+  },
+  "keywords": [
+    "map",
+    "node",
+    "browser"
+  ],
+  "dependencies": {},
+  "devDependencies": {},
+  "license": "luizbills.mit-license.org"
+}
