@@ -1,7 +1,7 @@
 #StringMap
-simple javascript StringMap.
+simple javascript StringMap class.
 
-#Usage
+###Usage
 
 ```javascript
 // nodejs
@@ -34,7 +34,7 @@ var json1 = map.toJSON(formatted, ident); // returns a json string formatted
 var json2 = map.toJSON(false); // returns a json string NOT formatted
 ```
 
-#Installation
+###Installation
 
 nodejs
 ```
@@ -46,5 +46,5 @@ browser
 <script src="path/to/string-map.js"></script>
 ```
 
-#License
+###License
 [MIT](luizbills.mit-license.org)
