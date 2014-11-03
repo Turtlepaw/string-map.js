@@ -1,6 +1,6 @@
 {
   "name": "string-map",
-  "version": "0.0.2",
+  "version": "0.0.1",
   "description": "simple javascript StringMap class",
   "author": "Luiz Bills <luizpbills@gmail.com>",
   "main": "string-map.js",
@@ -25,5 +25,5 @@
   ],
   "dependencies": {},
   "devDependencies": {},
-  "license": "luizbills.mit-license.org"
+  "license": "MIT"
 }
