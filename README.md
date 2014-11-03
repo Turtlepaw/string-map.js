@@ -34,17 +34,5 @@ var json1 = map.toJSON(formatted, ident); // returns a json string formatted
 var json2 = map.toJSON(false); // returns a json string NOT formatted
 ```
 
-###Installation
-
-nodejs
-```
-npm install string-map --save
-```
-
-browser
-```html
-<script src="path/to/string-map.js"></script>
-```
-
 ###License
 [MIT](luizbills.mit-license.org)
