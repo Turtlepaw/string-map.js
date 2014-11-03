@@ -1,7 +1,7 @@
 {
   "name": "string-map",
-  "version": "0.0.1",
-  "description": "simple javascript StringMap",
+  "version": "0.0.2",
+  "description": "simple javascript StringMap class",
   "author": "Luiz Bills <luizpbills@gmail.com>",
   "main": "string-map.js",
   "contributors": [
@@ -12,12 +12,13 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/luizbills/map.js"
+    "url": "https://github.com/luizbills/string-map.js"
   },
   "bugs": {
-    "url": "https://github.com/luizbills/map.js/issues"
+    "url": "https://github.com/luizbills/string-map.js/issues"
   },
   "keywords": [
+    "string",
     "map",
     "node",
     "browser"
