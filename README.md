@@ -1,6 +1,18 @@
 #StringMap
 simple javascript StringMap class.
 
+###Installation
+
+nodejs
+```
+npm install string-map --save
+```
+
+browser
+```html
+<script src="path/to/string-map.js"></script>
+```
+
 ###Usage
 
 ```javascript
