@@ -47,4 +47,4 @@ var json2 = map.toJSON(false); // returns a json string NOT formatted
 ```
 
 ###License
-[MIT](luizbills.mit-license.org)
+[MIT](//luizbills.mit-license.org)
