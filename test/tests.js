@@ -22,7 +22,9 @@ QUnit.test("StringMap Methods", function( assert ) {
   map.set('testNull', null); // this key is not valid
   assert.ok(map.keys().length === 2, ".keys()");
 
-  assert.ok(map.toJSON(true) === JSON.stringify(map._values, null, '\t'), ".toJSON(true)");
-  assert.ok(map.toJSON(true, 4) === JSON.stringify(map._values, null, 4), ".toJSON(true, 4)");
-  assert.ok(map.toJSON(false) === JSON.stringify(map._values), ".toJSON(false)");
+  assert.ok(map.toString(true) === JSON.stringify(map._values, null, '\t'), ".toString(true)");
+  assert.ok(map.toString(true, 4) === JSON.stringify(map._values, null, 4), ".toString(true, 4)");
+  assert.ok(map.toString(false) === JSON.stringify(map._values), ".toString(false)");
+
+  console.log(map.toString(true));
 });

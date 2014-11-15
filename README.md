@@ -8,7 +8,7 @@ nodejs
 npm install string-map --save
 ```
 
-browser
+browser (download at `./dist/string-map.js`)
 ```html
 <script src="path/to/string-map.js"></script>
 ```
@@ -42,8 +42,8 @@ map.remove("two"); // => false (already removed)
 
 var formatted = true;
 var ident = '\t'
-var json1 = map.toJSON(formatted, ident); // returns a json string formatted
-var json2 = map.toJSON(false); // returns a json string NOT formatted
+var json1 = map.toString(formatted, ident); // returns a json string formatted
+var json2 = map.toString(false); // returns a json string NOT formatted
 ```
 
 ###License
