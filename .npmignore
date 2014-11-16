@@ -1,4 +1,3 @@
 Gruntfile.js
-dist/string-map.min.js
 test/
 src/
