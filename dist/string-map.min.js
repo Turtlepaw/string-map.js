@@ -1,4 +1,4 @@
-/*! string-map v0.0.3 <https://github.com/luizbills/string-map.js>
+/*! string-map v0.0.4 <https://github.com/luizbills/string-map.js>
  *  Copyright 2014 Luiz "Bills" <luizpbills@gmail.com>
  *  Licensed under MIT License
  */
