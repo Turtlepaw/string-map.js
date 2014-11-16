@@ -4,13 +4,13 @@ class StringMap {
   }
 
   get(key) {
-    var value = this._values[key];
+    let value = this._values[key];
     return value != null ? value : null;
   }
 
   set(key, value) {
     if (key instanceof Object) {
-      for(var prop in key) {
+      for(let prop in key) {
         this._values[prop] = key[prop];
       }
     } else {
@@ -30,8 +30,8 @@ class StringMap {
   }
 
   keys() {
-    var keys = [];
-    for(var prop in this._values) {
+    let keys = [];
+    for(let prop in this._values) {
       if (this.exists(prop)) {
         keys.push(prop);
       }
