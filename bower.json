@@ -1,0 +1,29 @@
+{
+  "name": "string-map",
+  "version": "0.0.5",
+  "homepage": "https://github.com/luizbills/string-map.js",
+  "authors": [
+    "Luiz Bills <luizpbills@gmail.com>"
+  ],
+  "description": "simple javascript StringMap class",
+  "main": "dist/string-map.js",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "string",
+    "map",
+    "node",
+    "browser"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "src"
+  ]
+}
