@@ -24,6 +24,11 @@
     "node_modules",
     "bower_components",
     "test",
-    "src"
+    "src",
+    ".gitignore",
+    ".npmignore",
+    "Gruntfile.js",
+    "package.json",
+    "bower.json"
   ]
 }
