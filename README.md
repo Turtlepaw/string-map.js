@@ -8,7 +8,7 @@ nodejs
 npm install string-map --save
 ```
 
-browser ([dev](https://rawgit.com/luizbills/string-map.js/master/dist/string-map.js)/[min](https://rawgit.com/luizbills/string-map.js/master/dist/string-map.min.js))
+browser ([dev](https://rawgit.com/luizbills/string-map.js/master/dist/string-map.js) - [min](https://rawgit.com/luizbills/string-map.js/master/dist/string-map.min.js))
 ```html
 <script src="path/to/string-map.js"></script>
 ```
